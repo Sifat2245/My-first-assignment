@@ -22,6 +22,7 @@ main{
 .nav-bar{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 22px;
 }
 
 .nav-title{
@@ -51,7 +52,7 @@ main{
     justify-content: center;
     background-color: #C6E4D6;
     gap: 160px;
-    margin: 19px 192px;
+    margin: 0px 192px;
     border-radius: 24px;
     height: 560px;
 }
@@ -119,5 +120,120 @@ main{
 .header-description{
     font-size: 18px;
     color: rgba(0, 0, 0, 0.781);
+
+}
+
+/* vision section style */
+
+.vision-section{
+    margin: 80px 192px;
+}
+
+.vision-title{
+    font-size: 47px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.vision-description{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.781);
+    margin-bottom: 32px;
+}
+
+.vision-box{
+    display: flex;
+    gap: 26px;
+}
+
+.blue-box{
+    height: 325px;
+    width: 492px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border: none;
+    border-radius: 16px;
+    padding: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.blue-btn{
+    height: 41px;
+    width: 146px;
+    color: white;
+    background-color: #5490F5;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+}
+
+.green-box{
+    height: 325px;
+    width: 492px;
+    background-color: #C6E4D6;
+    border: none;
+    border-radius: 16px;
+    padding: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.green-btn{
+    height: 41px;
+    width: 146px;
+    color: white;
+    background-color: #09A15C;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+}
+
+.yellow-box{
+    height: 325px;
+    width: 492px;
+    background-color: #F7EBCF;
+    border: none;
+    border-radius: 16px;
+    padding: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.yellow-btn{
+    height: 41px;
+    width: 146px;
+    color: white;
+    background-color: #FFC239;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+}
+
+.box-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.89);
+    margin-top: 28px;
+    margin-bottom: 14px;
+}
+
+.box-description{
+    font-size: 19px;
+    margin-bottom: 28px;
 
 }
