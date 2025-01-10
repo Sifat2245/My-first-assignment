@@ -3,51 +3,51 @@
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
 /* shared style */
 
-.text-style-1{
+.text-style-1 {
     font-size: 47px;
     font-weight: 700;
     margin-bottom: 32px;
 }
 
-.text-style-2{
+.text-style-2 {
     font-size: 18px;
     color: rgba(0, 0, 0, 0.781);
     margin-bottom: 32px;
 }
 
-header{
+header {
     background-color: #F1F1F3;
 }
 
-main{
+main {
     background-color: #F1F1F3;
 }
 
-.nav-bar{
+.nav-bar {
     display: flex;
     justify-content: space-between;
     padding-bottom: 22px;
 }
 
-.nav-title{
+.nav-title {
     font-size: 38px;
     font-weight: bold;
-    padding: 31px 192px; 
+    padding: 31px 192px;
 }
 
 /* BD-2.0 style */
 
-.nav-btn{
+.nav-btn {
     color: #006A50;
     border: 1px solid #006A50;
     border-radius: 8px;
@@ -60,7 +60,7 @@ main{
     font-family: "Fira Sans", serif;
 }
 
-.bd-2-0{
+.bd-2-0 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,19 +71,19 @@ main{
     height: 560px;
 }
 
-.header-subtitle{
+.header-subtitle {
     font-size: 28px;
     font-weight: 400;
     margin-bottom: 15px;
 }
 
-.header-title{
+.header-title {
     font-size: 66px;
     font-weight: 800;
     margin-bottom: 24px;
 }
 
-.explore-btn{
+.explore-btn {
     color: #FFFFFF;
     height: 67px;
     width: 324px;
@@ -99,22 +99,22 @@ main{
 
 /* pillar section style */
 
-.Pillars-of-bd{
+.Pillars-of-bd {
     margin: 80px 192px;
 }
 
-.pillar-title{
+.pillar-title {
     font-size: 47px;
     font-weight: 700;
     margin-bottom: 32px;
 }
 
-.pillar-box{
+.pillar-box {
     display: flex;
     gap: 26px;
 }
 
-.box-style{
+.box-style {
     height: 210px;
     width: 360px;
     background-color: white;
@@ -123,7 +123,7 @@ main{
     padding: 27px;
 }
 
-.piller-header{
+.piller-header {
     font-size: 25px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.89);
@@ -131,7 +131,7 @@ main{
     margin-bottom: 12px;
 }
 
-.header-description{
+.header-description {
     font-size: 18px;
     color: rgba(0, 0, 0, 0.781);
 
@@ -139,29 +139,29 @@ main{
 
 /* vision section style */
 
-.vision-section{
+.vision-section {
     margin: 80px 192px;
 }
 
-.vision-title{
+.vision-title {
     font-size: 47px;
     font-weight: 700;
     margin-bottom: 32px;
 }
 
-.vision-description{
+.vision-description {
     font-size: 18px;
     color: rgba(0, 0, 0, 0.781);
     margin-bottom: 32px;
 }
 
-.vision-box{
+.vision-box {
     display: flex;
     gap: 26px;
     margin-bottom: 32px;
 }
 
-.blue-box{
+.blue-box {
     height: 325px;
     width: 492px;
     background-color: rgba(84, 144, 245, 0.2);
@@ -174,7 +174,7 @@ main{
     align-items: start;
 }
 
-.blue-btn{
+.blue-btn {
     height: 41px;
     width: 146px;
     color: white;
@@ -187,7 +187,7 @@ main{
     font-weight: 500;
 }
 
-.green-box{
+.green-box {
     height: 325px;
     width: 492px;
     background-color: #C6E4D6;
@@ -200,7 +200,7 @@ main{
     align-items: start;
 }
 
-.green-btn{
+.green-btn {
     height: 41px;
     width: 146px;
     color: white;
@@ -213,7 +213,7 @@ main{
     font-weight: 500;
 }
 
-.yellow-box{
+.yellow-box {
     height: 325px;
     width: 492px;
     background-color: #F7EBCF;
@@ -226,7 +226,7 @@ main{
     align-items: start;
 }
 
-.yellow-btn{
+.yellow-btn {
     height: 41px;
     width: 146px;
     color: white;
@@ -239,7 +239,7 @@ main{
     font-weight: 500;
 }
 
-.box-title{
+.box-title {
     font-size: 25px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.89);
@@ -247,7 +247,7 @@ main{
     margin-bottom: 14px;
 }
 
-.box-description{
+.box-description {
     font-size: 19px;
     margin-bottom: 28px;
 
@@ -255,36 +255,37 @@ main{
 
 /* quote style */
 
-.quote{
+.quote {
     height: 180px;
     width: 1470px;
     background-color: white;
     border: none;
     border-radius: 16px;
     padding: 30px 24px 48px;
-    
+
 }
-.quote-img{
+
+.quote-img {
     background: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: top left;
 }
 
-.quote-description{
+.quote-description {
     font-size: 19px;
     color: #0e0e0ed2;
     padding: 19px 0px;
     /* margin-bottom: 12px; */
 }
 
-.dr{
+.dr {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 5px;
 
 }
 
-.dr-title{
+.dr-title {
     font-size: 19px;
     color: #0e0e0ed2;
     /* margin-bottom: 12px; */
@@ -292,18 +293,18 @@ main{
 
 /* news section style */
 
-.news-section{
+.news-section {
     margin: 80px 192px;
 }
 
-.news-container{
+.news-container {
     /* margin: 80px 192px; */
     display: flex;
     flex-direction: column;
 
 }
 
-.news-box{
+.news-box {
     height: 310px;
     width: 1430px;
     padding: 48px;
@@ -314,23 +315,23 @@ main{
     gap: 32px;
 }
 
-.news-title{
+.news-title {
     font-size: 37px;
     font-weight: bold;
     margin-bottom: 12px;
 }
 
-.Time-date{
+.Time-date {
     margin: 12px 0;
     opacity: 0.6;
 }
 
-.news-details{
+.news-details {
     font-size: 19px;
     margin-bottom: 40px;
 }
 
-.learn-more{
+.learn-more {
     color: #FFFFFF;
     height: 48px;
     width: 165px;
@@ -343,11 +344,60 @@ main{
     border: none;
 }
 
-.news-container .news-box{
+.news-container .news-box {
     margin-bottom: 24px;
 }
 
-.news-container img{
+.news-container img {
     border-radius: 16px;
 }
 
+/* donate section style */
+
+.donate-section {
+    text-align: center;
+    margin: 80px 192px;
+}
+
+.donate-amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.tk {
+    height: 45px;
+    width: 160px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    border-radius: 16px;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 40px;
+    color: rgba(0, 0, 0, 0.836);
+}
+
+input {
+    height: 64px;
+    width: 1012px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    text-align: center;
+    font-size: 19px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    margin: 32px 32px;
+}
+
+.donate-btn{
+    color: #FFFFFF;
+    height: 56px;
+    width: 151px;
+    background-color: #006A50;
+    padding: 17px 34px;
+    font-size: 20px;
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+}
