@@ -144,6 +144,7 @@ main{
 .vision-box{
     display: flex;
     gap: 26px;
+    margin-bottom: 32px;
 }
 
 .blue-box{
@@ -236,4 +237,41 @@ main{
     font-size: 19px;
     margin-bottom: 28px;
 
+}
+
+/* quote style */
+
+.quote{
+    height: 180px;
+    width: 1470px;
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 30px 24px 48px;
+    
+}
+.quote-img{
+    background: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.quote-description{
+    font-size: 19px;
+    color: #0e0e0ed2;
+    padding: 19px 0px;
+    /* margin-bottom: 12px; */
+}
+
+.dr{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+
+.dr-title{
+    font-size: 19px;
+    color: #0e0e0ed2;
+    /* margin-bottom: 12px; */
 }
