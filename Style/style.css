@@ -367,21 +367,22 @@ main {
 }
 
 .tk {
-    height: 45px;
-    width: 160px;
+    height: 128px;
+    width: 260px;
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.137);
     border-radius: 16px;
-    font-size: 34px;
+    font-size: 37px;
     font-weight: bold;
     padding: 40px;
     color: rgba(0, 0, 0, 0.836);
 }
 
-input {
+.other-amount {
     height: 64px;
-    width: 1012px;
+    width: 1072px;
     border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 6px;
     text-align: center;
     font-size: 19px;
     box-sizing: border-box;
@@ -399,5 +400,63 @@ input {
     font-family: "Fira Sans", serif;
     font-weight: 500;
     border-radius: 8px;
+    border: none;
+}
+
+/* subscribe section style */
+
+.subscrib-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #C6E4D6;
+    margin: 0px 192px;
+    border-radius: 24px;
+    height: 395px;
+    padding: 80px 310px;
+
+}
+
+.subs-title{
+    font-size: 47px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.subs-description{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.781);
+    margin-bottom: 32px;
+    text-align: center;
+}
+.subscribe-box{
+    display: flex;
+    gap: 0px;
+}
+
+.email-box{
+    height: 32px;
+    width: 390px;
+    text-align: start;
+    padding: 18px 403px 18px 40px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.603);
+    /* margin: 32px 0px; */
+    border-radius: 12px 0px 0px 12px;
+    border: none;
+}
+
+.subs-btn{
+    color: #FFFFFF;
+    height: 68px;
+    width: 151px;
+    background-color: #006A50;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    border-radius: 0px 12px 12px 0;
     border: none;
 }
