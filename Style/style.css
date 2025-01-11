@@ -35,7 +35,7 @@ main {
 
 footer{
     background-color: #F1F1F3;
-    padding-top: 80px;
+    padding-top: 38px;
 }
 
 .nav-bar {
@@ -48,6 +48,11 @@ footer{
     font-size: 38px;
     font-weight: bold;
     padding: 31px 192px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
 }
 
 /* BD-2.0 style */
@@ -63,6 +68,12 @@ footer{
     padding: 15px 30px;
     margin: 24px 192px;
     font-family: "Fira Sans", serif;
+    cursor: pointer;
+}
+
+.nav-btn:hover{
+    color: #FFFFFF;
+    background-color: #006A50;
 }
 
 .bd-2-0 {
@@ -99,7 +110,12 @@ footer{
     font-weight: 500;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
+}
 
+.explore-btn:hover{
+    color: white;
+    background-color: #527a68;
 }
 
 /* pillar section style */
@@ -190,6 +206,12 @@ footer{
     font-size: 18px;
     font-family: "Fira Sans", serif;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.blue-btn:hover{
+    color: #5490F5;
+    background-color: white;
 }
 
 .green-box {
@@ -216,6 +238,12 @@ footer{
     font-size: 18px;
     font-family: "Fira Sans", serif;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.green-btn:hover{
+    color: #09A15C;
+    background-color: white;
 }
 
 .yellow-box {
@@ -242,6 +270,12 @@ footer{
     font-size: 18px;
     font-family: "Fira Sans", serif;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.yellow-btn:hover{
+    color: #FFC239;
+    background-color: white;
 }
 
 .box-title {
@@ -347,6 +381,13 @@ footer{
     font-weight: 500;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
+}
+
+.learn-more:hover{
+    color: #006A50;
+    background-color: transparent;
+    border: 2px solid #006A50;
 }
 
 .news-container .news-box {
@@ -381,6 +422,14 @@ footer{
     font-weight: bold;
     padding: 40px;
     color: rgba(0, 0, 0, 0.836);
+    font-family: "Fira Sans", serif;
+    cursor: pointer;
+}
+
+.tk:hover{
+    color: black;
+    background-color: #C6E4D6;
+    /* border: 2px solid #006A50; */
 }
 
 .other-amount {
@@ -393,6 +442,7 @@ footer{
     box-sizing: border-box;
     background: rgb(255, 255, 255);
     margin: 32px 32px;
+    font-family: "Fira Sans", serif;
 }
 
 .donate-btn{
@@ -406,7 +456,15 @@ footer{
     font-weight: 500;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
+
+.donate-btn:hover{
+    color: #006A50;
+    background-color: transparent;
+    border: 2px solid #006A50;
+}
+
 
 /* subscribe section style */
 
@@ -451,6 +509,7 @@ footer{
     /* margin: 32px 0px; */
     border-radius: 12px 0px 0px 12px;
     border: none;
+    font-family: "Fira Sans", serif;
 }
 
 .subs-btn{
@@ -461,10 +520,17 @@ footer{
     padding: 17px 34px;
     font-size: 18px;
     font-family: "Fira Sans", serif;
-    font-weight: 500;
+    font-weight: 700;
     border-radius: 0px 12px 12px 0;
     border: none;
+    cursor: pointer;
 }
+
+.subs-btn:hover{
+    color: white;
+    background-color: #527a68;
+}
+
 
 /* footer section style */
 
@@ -494,6 +560,11 @@ footer{
     justify-content: center;
     gap: 32px;
     margin-top: 32px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
 }
 
 hr{
